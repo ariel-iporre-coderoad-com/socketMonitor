@@ -11,7 +11,7 @@ db = client.riot_main
 print "Primer database            : " + str(db)
 collection = db.things
 print "Primer database collections: " + str(collection)
-cursor = collection.find()
+cursor = collection.find({"serialNumber":"ITEMA2"})
 print "Primer database cursor     : " + str(cursor)
 cnt = 0
 for thing in cursor:

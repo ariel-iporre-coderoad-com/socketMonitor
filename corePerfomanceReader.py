@@ -10,7 +10,7 @@ import subprocess
 import time
 
 def getNativeFiltersTime():
-    fileName = "/home/ariel/Documents/CorePerformance/MCBwithOut.log"
+    fileName = "/home/ariel/Documents/CorePerformance/MCB.log"
     word = "LPT.native: "
     marks = ["sourceFilter=", "pointInZone=", "doorEvent=", "shiftZone=", "identifiers=", "total="]
     marksPositions = [8, 9, 10, 11, 12, 13]
